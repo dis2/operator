@@ -18,8 +18,7 @@ import "encoding/json"
 import "log"
 import "os"
 import "crypto/tls"
-
-import dac "./go-http-digest-auth-client"
+import dac "github.com/dis2/go-http-digest-auth-client"
 
 const API_BASE = "https://api.surfeasy.com/v4/"
 const TOR_URL = "socks5://127.0.0.1:9150"
